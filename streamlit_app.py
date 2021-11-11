@@ -41,7 +41,7 @@ def main():
 
     st.markdown("<h1 style='text-align: left; color: lightblue;'>\
         CMS Hospital Data Explorer </h1>", unsafe_allow_html=True)
-    dataset_name = st.selectbox('Dataset', list(data.keys()), index = 6)
+    dataset_name = st.selectbox('Dataset', list(data.keys()), index = 0)
     
     if dataset_name == 'Timely_and_Effective_Care':
         measure_name = st.selectbox('Measure Name', list(data[dataset_name]['Measure Name'].unique()), \
