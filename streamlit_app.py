@@ -32,14 +32,14 @@ def main():
         This CMS data explorer is a [streamlit](https://streamlit.io/) web app to easily navigate and explore [CMS hospital compare data](https://www.medicare.gov/care-compare/).
         The original data set is [here](https://data.cms.gov/provider-data/search?theme=Hospitals). More dataset will be added in the future.
         
-        **Instructions**
-        1. Select Dataset and Measure Name to plot
-        2. Select States for data visualization. If number of states is less than 5, you will have the option to select counties as well.
-        3. Select Facility. The selected facility will show up as a dot in the histogram. Default selection is some of the [Lifepoint Hospitals](http://www.lifepointhealth.net/locations). 
+        **Instructions**\n
+        1. Select Dataset and Measure Name to plot \n
+        2. Select States for data visualization. If number of states is less than 5, you will have the option to select counties as well.\n
+        3. Select Facility. The selected facility will show up as a dot in the histogram. Default selection is some of the [Lifepoint Hospitals](http://www.lifepointhealth.net/locations).\n 
         4. Histogram will show the selected data. If plot selected facility only, only data from the selected facility will be ploted. Otherwise, all facility that
-           meets the location criteria will be plotted.
+           meets the location criteria will be plotted.\n
         5. A table showing data from the histogram is provided. You can use the sort values in reverse box to sort the score column. You can also click on the column header to sort any column.
-        6. A map showing all facility in the table. [Interactive feature not available yet]
+        6. A map showing all facility in the table. [Interactive feature not available yet]\n
         
         Created by Matt Tso 2021 DS @ Dascena \n
         [App Repo](https://github.com/tsofoon/cms_dashboard)
