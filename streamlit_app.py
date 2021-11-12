@@ -110,8 +110,10 @@ def main():
     life_point_HOSP = life_point_HOSP_df[life_point_HOSP_df['Facility Name'].\
                         isin(df['Facility Name'])]['Facility Name'].to_list()
 
-    life_point_HOSP.remove('MEMORIAL MEDICAL CENTER')
-    life_point_HOSP.remove('COMMUNITY MEDICAL CENTER')
+    if 'MEMORIAL MEDICAL CENTER' in life_point_HOSP:
+        life_point_HOSP.remove('MEMORIAL MEDICAL CENTER')
+    if 'COMMUNITY MEDICAL CENTER' in life_point_HOSP:
+        life_point_HOSP.remove('COMMUNITY MEDICAL CENTER')
     
     sel_HOSPs = st.multiselect(
         'Select Hospitals to Highlight',
