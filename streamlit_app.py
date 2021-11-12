@@ -24,6 +24,21 @@ def movecol(df, cols_to_move=[], ref_col='', place='After'):
 
 
 def main():
+    ### sidebar ###
+    
+    st.sidebar.title('About the app')
+    st.sidebar.markdown(
+        """
+        This CMS data explorer is a [streamlit](https://streamlit.io/) web app to easily navigate and explore [CMS hospital compare data](https://www.medicare.gov/care-compare/).
+        The original data set is [here](https://data.cms.gov/provider-data/search?theme=Hospitals). More dataset will be added in the future.
+        
+        Created by Matt Tso 2021 DS @ Dascena
+        [App Repo](https://github.com/tsofoon/cms_dashboard)
+        """
+    )
+    
+    
+    ### main ###
     life_point_HOSP_df = pd.read_csv('Data/LIFEPOINT_HOSP.csv') 
     life_point_HOSP_df['Facility Name'] = \
         life_point_HOSP_df['Facility Name'].str.upper()
