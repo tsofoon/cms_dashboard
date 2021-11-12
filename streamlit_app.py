@@ -41,6 +41,10 @@ def main():
         5. A table showing data from the histogram is provided. You can use the sort values in reverse box to sort the score column. You can also click on the column header to sort any column.
         6. A map showing all facility in the table. [Interactive feature not available yet]\n
         
+        **Pro Tips**\n
+        1. You can enlarge the graphs, tables and maps on streamlit by pressing the icon on the top right corner. \n
+        2. The histograms are built using [plotly](https://plotly.com/python/)  and are meant to be interactive. You can zoom, pan, select, hover and more! \n
+        
         Created by Matt Tso 2021 DS @ Dascena \n
         [App Repo](https://github.com/tsofoon/cms_dashboard)
         """
