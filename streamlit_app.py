@@ -49,7 +49,7 @@ def main():
     st.sidebar.markdown(
         """
         This CMS data explorer is a [streamlit](https://streamlit.io/) web app to easily navigate and explore [CMS hospital compare data](https://www.medicare.gov/care-compare/).
-        The original data set is [here](https://data.cms.gov/provider-data/search?theme=Hospitals). More dataset will be added in the future.
+        The original data set is [here](https://data.cms.gov/provider-data/search?theme=Hospitals). 
         
         **Instructions**\n
         1. Select Dataset and Measure Name to plot \n
@@ -78,7 +78,7 @@ def main():
     data = load_data()
 
 
-    st.markdown("<h1 style='text-align: left; color: lightblue;'>\
+    st.markdown("<h1 style='text-align: left; color: '#0075C9';'>\
         CMS Hospital Data Explorer </h1>", unsafe_allow_html=True)
     dataset_name = st.selectbox('Dataset', list(data.keys()), index = 0)
     
