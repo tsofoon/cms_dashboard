@@ -78,7 +78,7 @@ def main():
     data = load_data()
 
 
-    st.markdown("<h1 style='text-align: left; color: '#0075C9';'>\
+    st.markdown("<h1 style='text-align: left; color: rgb(0,117,201);'>\
         CMS Hospital Data Explorer </h1>", unsafe_allow_html=True)
     dataset_name = st.selectbox('Dataset', list(data.keys()), index = 0)
     
