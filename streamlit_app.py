@@ -28,7 +28,7 @@ def load_data():
     google_dr_dict = dict()
     google_dr_dict['Timely_and_Effective_Care'] = 'https://drive.google.com/file/d/1h82JBQapUD1zi1HVSJe3I2Vw5ofHvlOH/view?usp=sharing'
     google_dr_dict['Complications_and_Deaths'] = 'https://drive.google.com/file/d/1x_ZJlgBsn2d_BbY9bioDofQys7rnDVu3/view?usp=sharing'
-    google_dr_dict['HCAHPS'] = 'https://drive.google.com/file/d/1z9bRVkal1S2WqL8c7DOtwLKpM8bF_LtG/view?usp=sharing'
+    #google_dr_dict['HCAHPS'] = 'https://drive.google.com/file/d/1z9bRVkal1S2WqL8c7DOtwLKpM8bF_LtG/view?usp=sharing'
     google_dr_dict['Healthcare_Associated_Infections'] = 'https://drive.google.com/file/d/1TKryKkpVlVCzHqzRfjo0INS37oAmvv_1/view?usp=sharing'
     google_dr_dict['Medicare_Hospital_Spending_Per_Patient'] = 'https://drive.google.com/file/d/1uyvMzW27XOq8qXB1VopKaczZfSOHj57-/view?usp=sharing'
     google_dr_dict['Payment_and_Value_of_Care'] = 'https://drive.google.com/file/d/1ipoCesJhBAWm-tvwQLrcSMtDj1JduqFO/view?usp=sharing'
